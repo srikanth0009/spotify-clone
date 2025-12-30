@@ -9,7 +9,8 @@ const app = express();
 app.use(cors());
 
 app.get("/login", (req, res) => {
-  const redirect_uri = "http://127.0.0.1:5173/callback";
+  const redirect_uri = " https://spotify-clone-henna.vercel.app/callback";
+ 
 
   const scope = [
     "user-read-private",
