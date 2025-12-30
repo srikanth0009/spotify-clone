@@ -1,7 +1,7 @@
 export default function Login() {
 
   const handleLogin = () => {
-    window.location.href = "http://127.0.0.1:3000/login";
+    window.location.href = "https://spotify-clone-server-veda.onrender.com/login";
   };
 
   return (

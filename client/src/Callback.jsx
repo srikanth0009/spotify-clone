@@ -59,7 +59,7 @@ export default function Callback() {
     // getTokens();
 
      if (code) {
-      fetch(`http://127.0.0.1:3000/callback?code=${code}`)
+      fetch(`https://spotify-clone-server-veda.onrender.com/callback?code=${code}`)
         .then(res => res.json())
         .then(data => {
           console.log("TOKEN DATA:", data);
